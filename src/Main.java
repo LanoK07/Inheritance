@@ -11,5 +11,10 @@ public class Main {
         System.out.println(p2.age);
 
         Person p3= p2.Call_Private();
+
+        Student s1 = new Student();
+        s1.age = 20;
+        s1.gpa = 4.00;
+        System.out.println(s1.gpa);
     }
 }
